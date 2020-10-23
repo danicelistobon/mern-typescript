@@ -1,0 +1,9 @@
+.video-card:hover {
+  border: 1px solid #999;
+}
+.video-card h5:hover {
+  cursor: pointer;
+}
+.video-card span:hover {
+  cursor: pointer;
+}
