@@ -1,0 +1,27 @@
+@url = http://localhost:4000
+
+POST  {{url}}/newVideo
+Content-Type: application/json
+
+{
+  "url": "https://youtu.be/wOLo-B7mrZM",
+  "title": "Full-stack app - #2 Frontend",
+  "description": "MERN stack & Typescript (Mongodb, Express, React, Node con Typescript)"
+}
+
+###
+GET {{url}}/videos
+
+###
+GET {{url}}/videos/3
+
+###
+PUT {{url}}/videos/5
+Content-Type: application/json
+
+{
+  "title": "Frontend"
+}
+
+###
+DELETE {{url}}/videos/3
